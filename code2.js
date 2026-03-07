@@ -3,7 +3,7 @@
 const letters = "abcdefghijklmnopqrstuvwxyz";
 const upercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numbers = "0123456789";
-const specialChars = "!@#$%^&*()[]{}:;<>,.?/|";
+const specialChars = "~`!@#$%^&*()[]{}:;<>,.?/|";
 
 function RandomString(stringSet, numbersStringSet) {
   let result = "";
@@ -27,3 +27,4 @@ const id = document.querySelector("#id");
 const pass = document.querySelector("#pass");
 
 pass.innerHTML = pasword;
+
